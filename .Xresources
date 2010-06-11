@@ -1,0 +1,6 @@
+xterm*font: 10x20
+xterm*scrollBar: false
+xterm*scrollTtyOutput: false
+xterm*scrollKey: true
+emacs*font: 10x20
+
