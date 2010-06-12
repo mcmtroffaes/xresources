@@ -1,0 +1,10 @@
+#!/bin/sh
+
+dir=`pwd`
+
+[ "$dir" == "$HOME" ] && echo "Cannot run script in home directory." && exit
+[ ! -e .Xresources ] && echo "Error: .Xresources not found." && exit
+
+rm -f ~/.Xresources
+ln -s $dir/.Xresources ~
+
